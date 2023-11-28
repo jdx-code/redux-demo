@@ -64,6 +64,11 @@
     border-radius: 50%;
     color: #fff;
 }
+
+button.btn-remove-cart{
+  margin: 10px;
+  background-color: blue;
+}
 /*  */
 
 

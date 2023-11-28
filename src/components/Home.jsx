@@ -26,6 +26,13 @@ const Home = (props) => {
                     >
                         Add To Cart
                     </button>
+
+                    <button
+                        className="btn-remove-cart"
+                        onClick={() => props.removeFromCartHandler()}
+                    >
+                        Remove From Cart
+                    </button>
                 </div>
             </div>
     </div>    

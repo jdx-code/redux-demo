@@ -8,9 +8,9 @@ export const addToCart = (data) => {
     }
 }
 
-export const removeFromCart = (id) => {
+export const removeFromCart = () => {
+    console.warn('action')
     return {
-        type: REMOVE_FROM_CART,
-        data: id
+        type: REMOVE_FROM_CART,        
     }
 }
