@@ -5,8 +5,7 @@ const Home = (props) => {
     console.warn('home', props)
 
   return (
-    <div>
-        <span>{props.cartData.length}</span>
+    <div>        
       <h1>Home Component</h1>
       
       <div className="cart-wrapper">
